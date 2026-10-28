@@ -1,0 +1,48 @@
+:root {
+    --color-bg-deep: #010736;
+    --color-surface: #0D1C42;
+    --color-accent: #22396F;
+    --color-cream: #FCF1D0;
+    --color-cream-muted: rgba(252, 241, 208, 0.72);
+    --color-border: #22396F;
+
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: var(--color-cream);
+    background-color: var(--color-bg-deep);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--color-bg-deep);
+    color: var(--color-cream);
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input {
+    font-family: inherit;
+}
